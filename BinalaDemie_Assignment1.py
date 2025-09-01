@@ -3,7 +3,7 @@ while True:
     columns = int(input("Enter number of columns: "))
     search = int(input("Enter the number you want to search: "))
 
-    if rows and columns < 1:
+    if rows or columns < 1:
         break
     else:
         
